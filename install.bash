@@ -9,7 +9,7 @@ v=$1
 
 cp -r $v/.arduino15 ~/.arduino15
 
-echo "alias arcuino-cli=$PWD/$v/arduino-cli"
+echo "alias arcuino-cli=$PWD/$v/arduino-cli" >> ~/.bashrc
 
 echo "Done!"
 
