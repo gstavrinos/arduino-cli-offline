@@ -16,6 +16,13 @@ read -n 1 -p "Place the appropriate arduino-cli executable in the $v folder and 
 ./$v/arduino-cli lib update-index
 ./$v/arduino-cli lib install JC_Button
 ./$v/arduino-cli lib install "Adafruit NeoPixel"
+./$v/arduino-cli lib install SharpIR
+./$v/arduino-cli lib install AccelStepper
+./$v/arduino-cli lib install SD
+./$v/arduino-cli lib install "Adafruit VS1053 Library" 
+./$v/arduino-cli lib install SdFat
+./$v/arduino-cli lib install "VS1053 for use with SdFat"
+./$v/arduino-cli lib install MFRC522
 
 cp -r ~/.arduino15 $v/ 
 
